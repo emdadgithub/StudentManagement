@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{B567149C-B4C7-4F03-BA7B-E566CCB6EA1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{D025A45C-E90D-4AE2-8707-02CFCB7341BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{5BE053D6-3BE6-4AF3-ACE0-97801F5846A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.API", "StudentManagement.API\StudentManagement.API.csproj", "{D10A5678-C87A-4323-A932-B6F825768425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Service", "StudentManagement.Service\StudentManagement.Service.csproj", "{79649FEF-1334-480E-BB04-F52FAE0A74D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Data", "StudentManagement.Data\StudentManagement.Data.csproj", "{E6DF8425-291E-4C36-B6FD-E86B7C36FFCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Repository", "StudentManagement.Repository\StudentManagement.Repository.csproj", "{9E5DDC82-43F5-488A-9D16-32A15810F127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D10A5678-C87A-4323-A932-B6F825768425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10A5678-C87A-4323-A932-B6F825768425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10A5678-C87A-4323-A932-B6F825768425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10A5678-C87A-4323-A932-B6F825768425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79649FEF-1334-480E-BB04-F52FAE0A74D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79649FEF-1334-480E-BB04-F52FAE0A74D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79649FEF-1334-480E-BB04-F52FAE0A74D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79649FEF-1334-480E-BB04-F52FAE0A74D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DF8425-291E-4C36-B6FD-E86B7C36FFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DF8425-291E-4C36-B6FD-E86B7C36FFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DF8425-291E-4C36-B6FD-E86B7C36FFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DF8425-291E-4C36-B6FD-E86B7C36FFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5DDC82-43F5-488A-9D16-32A15810F127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5DDC82-43F5-488A-9D16-32A15810F127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5DDC82-43F5-488A-9D16-32A15810F127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5DDC82-43F5-488A-9D16-32A15810F127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D10A5678-C87A-4323-A932-B6F825768425} = {5BE053D6-3BE6-4AF3-ACE0-97801F5846A2}
+		{79649FEF-1334-480E-BB04-F52FAE0A74D0} = {B567149C-B4C7-4F03-BA7B-E566CCB6EA1A}
+		{E6DF8425-291E-4C36-B6FD-E86B7C36FFCE} = {D025A45C-E90D-4AE2-8707-02CFCB7341BE}
+		{9E5DDC82-43F5-488A-9D16-32A15810F127} = {D025A45C-E90D-4AE2-8707-02CFCB7341BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65A9BEAF-D28E-49C6-BDD5-87E37B761E18}
+	EndGlobalSection
+EndGlobal
