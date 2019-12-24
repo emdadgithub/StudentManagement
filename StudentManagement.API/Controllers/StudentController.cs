@@ -24,14 +24,15 @@ namespace StudentManagement.API.Controllers
         public async Task<List<StudentModel>> GetStudents()
         {
             var response = await _studentService.GetStudentsAsync();
+
             return response;
         }
 
         [HttpPost]
         [Route("studentSearch")]
-        public async Task<List<StudentModel>> GetStudentsBySearchAsync(StudentModel student)
+        public async Task<List<StudentModel>> GetStudentsBySearchAsync(SearchModel mdoel)
         {
-            var response = await _studentService.GetStudentsBySearchAsync(student.SearchText, student.PageNumber, student.PageSize);
+            var response = await _studentService.GetStudentsBySearchAsync(mdoel.SearchText, mdoel.PageNumber, mdoel.PageSize);
             return response;
         }
 
